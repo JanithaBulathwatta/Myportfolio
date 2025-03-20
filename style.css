@@ -350,6 +350,10 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+
+  p{
+    padding-bottom: .5rem;
+  }
 }
 
 .article-container {
