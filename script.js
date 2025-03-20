@@ -12,5 +12,13 @@ function toggleMenu() {
     delay:100,
 });
 
-ScrollReveal().reveal('.section__pic-container,.details-container', { origin: 'left' });
-ScrollReveal().reveal('.section__text, .text-container', { origin:'right'});
+ScrollReveal().reveal('.section__pic-container', { origin: 'left' });
+ScrollReveal().reveal('.section__text', { origin:'right'});
+
+const typed = new Typed('.multiple-text',{
+  strings:['Backend developer','Web developer','Software Engineer'],
+  typeSpeed:70,
+  backSpeed:70,
+  backDelay:1000,
+  loop:true,
+});
